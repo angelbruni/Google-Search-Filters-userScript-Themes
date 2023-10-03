@@ -4,7 +4,7 @@
     @description  A 2012 sidebar theme for Bruni's Google Search Filters userScript.
     @author       @angelbruni
     @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
-    @version      1.1
+    @version      1.2
     ==/UserStyle== */
 
     :root {
@@ -26,13 +26,12 @@
         display: block; /* !!! RESTORE HIDDEN ELEMENTS DUE TO NO THEME WARING !!! */
     }
     
-    .yyoM4d, .O850f, .w8oiwc, .wtAAQb, .cEPPT, .TrmO7, .PAYrJc, div[jscontroller="ONqfcd"], .sKb6pb {
+    .yyoM4d, .O850f, .w8oiwc, .wtAAQb, .cEPPT, .TrmO7, .PAYrJc, div[jscontroller="ONqfcd"], .sKb6pb, .IC1Ck {
         display: none;
     }
-
-    #Rzn5id {
-        position: fixed !important;
-        top: 75px !important;
+    
+    .GLcBOb {
+        border-bottom: none;
     }
     
     .LHJvCe {
@@ -44,10 +43,6 @@
         margin-left: calc(var(--first-column-width) + 8px);
     }
     
-    .OcgH4b {
-        margin-right: calc((var(--first-column-width) + 8px) * -1);
-    }
-
     .cEPPT {
         margin-left: -8px;
     }
@@ -105,7 +100,6 @@
         width: var(--first-column-width);
         position: absolute;
         top: 88px;
-        z-index: 1;
     }
     
     #bruniSidebarHeader {
