@@ -4,7 +4,7 @@
     @description  A fix for Old Google 2014 to be used with 2012 Sidebar theme for Bruni's Google Search Filters userScript.
     @author       @angelbruni
     @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
-    @version      1.1
+    @version      1.2
     ==/UserStyle== */
 
     #bruniSidebarContainer {
@@ -26,6 +26,10 @@
     #extabar > div {
         position: absolute !important;
         top: -4px;
+    }
+
+    .rfiSsc {
+        display: block;
     }
     
     #result-stats {
