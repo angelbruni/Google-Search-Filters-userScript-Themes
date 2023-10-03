@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://www.google.com/search?q=") {
+@-moz-document url-prefix("https://www.google.com/search") {
     /* ==UserStyle==
     @name         Lego Savant's Old Google 2014 Google Search Filters fix
     @description  A fix for Old Google 2014 to be used with 2012 sidebar theme for Bruni's Google Search Filters userScript.
