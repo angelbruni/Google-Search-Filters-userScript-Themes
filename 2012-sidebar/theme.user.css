@@ -1,0 +1,188 @@
+@-moz-document url-prefix("https://www.google.com/search?q=") {
+    /* ==UserStyle==
+    @name         2012-sidebar
+    @description  A 2012 sidebar theme for Bruni's Google Search Filters userScript.
+    @author       @angelbruni
+    @version      1.0
+    ==/UserStyle== */
+
+    :root {
+        --first-column-width: 160px;
+        --first-column-margin-left: 28px;
+        --sidebar-header-height: 58px;
+        --sidebar-header-margin-bottom: 22px;
+        --filters-height: 29px;
+        --filters-border-left-length: 5px;
+        --google-colour: #dd4b39;
+        --text-colour: #222;
+        --font-size: 13px;
+    }
+    
+    #bruniWarning {
+        display: none; /* !!! REMOVE NO THEME WARNING !!! */
+    }
+    #bruniSidebarHeader, #bruniFiltersContainer, #bruniToolsContainer {
+        display: block; /* !!! RESTORE HIDDEN ELEMENTS DUE TO NO THEME WARING !!! */
+    }
+    
+    .yyoM4d, .O850f, .w8oiwc, .wtAAQb, .cEPPT, .TrmO7, .PAYrJc, div[jscontroller="ONqfcd"], .sKb6pb {
+        display: none;
+    }
+    
+    .LHJvCe {
+        top: 0 !important;
+        opacity: 100% !important;
+    }
+    
+    .mJxzWe, #center_col, .A8SBwf, #rcnt {
+        margin-left: calc(var(--first-column-width) + 8px);
+    }
+    
+    .cEPPT {
+        margin-left: -8px;
+    }
+    
+    .xhjkHe {
+        justify-content: end;
+    }
+    
+    div[jsname="I4bIT"], #hdtb-tls {
+        margin-top: 14px;
+    }
+    
+    .GyAeWb > div > #center_col, .sh-dr__restricts {
+        margin-top: 59px;
+    }
+    
+    .PuHHbb {
+        z-index: 1;
+    }
+    
+    #rso {
+        margin-top: 42px;
+    }
+    
+    #result-stats {
+        height: 100%;
+        line-height: var(--sidebar-header-height);
+        font-size: var(--font-size);
+        font-family: arial, sans-serif;
+    }
+    
+    #rcnt > #center_col, .M8OgIe {
+        margin-left: 0 !important;
+    }
+    
+    #appbar, .A8SBwf {
+        padding-left: 0;
+    }
+    
+    #appbar {
+        height: var(--sidebar-header-height);
+        border-top: 0;
+        margin-top: -55px;
+        margin-left: var(--first-column-width);
+        padding-left: 8px;
+        background-color: transparent;
+        width: fit-content;
+    }
+    
+    .ndYZfc {
+        height: calc(var(--sidebar-header-height) + 18px)
+    }
+    
+    #bruniSidebarContainer {
+        width: var(--first-column-width);
+        position: absolute;
+        top: 88px;
+        z-index: 1;
+    }
+    
+    #bruniSidebarHeader {
+        display: block;
+        color: var(--google-colour);
+        font: 20px "Arial";
+        padding-left: calc(var(--first-column-margin-left) + var(--filters-border-left-length));
+        height: var(--sidebar-header-height);
+        line-height: calc(var(--sidebar-header-height) - 2px);
+        margin-top: 0;
+        margin-bottom: var(--sidebar-header-margin-bottom);
+        position: relative;
+    }
+    
+    #bruniSidebarHeader::after {
+        content: '';
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        width: calc(100vw - 17px);
+        border-bottom: 1px solid #dedede;
+    }
+    
+    button.bruniFilters {
+        width: 100%;
+        text-align: left;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    
+    .bruniFilters {
+        display: block;
+        padding-left: var(--first-column-margin-left);
+        height: var(--filters-height);
+        line-height: var(--filters-height);
+        font-size: var(--font-size);
+        font-family: arial, sans-serif !important;
+        border: none;
+        border-left: var(--filters-border-left-length) solid transparent;
+        color: var(--text-colour);
+    }
+    
+    .bruniFilters:visited {
+        color: var(--text-colour);
+    }
+    
+    .bruniFilters:hover {
+        text-decoration: none;
+        background-color: #eee;
+    }
+    
+    .bruniFilters:active {
+        color: var(--google-colour);
+    }
+    
+    .bruniFilters.active {
+        border-left: var(--filters-border-left-length) solid var(--google-colour);
+        color: var(--google-colour) !important;
+    }
+    
+    #bruniFiltersMoreContainer {
+        display: none;
+    }
+    
+    #bruniToolsContainer {
+        border-top: 1px solid #dedede;
+        padding-top: 15px;
+        margin-top: 15px;
+        margin-left: calc(var(--first-column-margin-left) + var(--filters-border-left-length));
+        margin-right: var(--first-column-margin-left);
+    }
+    
+    #bruniToolsTimeContainer, #bruniToolsResultsContainer {
+        margin-bottom: 33px;
+    }
+    
+    .bruniTools {
+        display: block;
+        color: var(--text-colour) !important;
+        margin-bottom: 2px;
+        font-size: var(--font-size);
+        font-family: arial, sans-serif !important;
+    }
+    
+    .bruniTools.active {
+        color: var(--google-colour) !important;
+        font-weight: bold;
+        text-decoration: none !important;
+    }
+}
