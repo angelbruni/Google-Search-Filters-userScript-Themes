@@ -1,17 +1,17 @@
 @-moz-document url-prefix("https://www.google.com/search") {
     /* ==UserStyle==
-    @name         Lego Savant's Old Google 2014 Google Search Filters fix
-    @description  A fix for Old Google 2014 to be used with 2012 sidebar theme for Bruni's Google Search Filters userScript.
+    @name         Google 2012 Sidebar - Lego Savant's Old Google 2014 Google Search Filters fix
+    @description  A fix for Old Google 2014 to be used with 2012 Sidebar theme for Bruni's Google Search Filters userScript.
     @author       @angelbruni
     @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
-    @version      1.0
+    @version      1.0.1
     ==/UserStyle== */
 
     #bruniSidebarContainer {
         top: 62px !important;
     }
     
-    .hdtb {
+    #hdtb {
         display: none;
     }
     
