@@ -4,7 +4,7 @@ Themes for my [Google Search Filters userScript](https://github.com/brunobits/Go
 ## Requirements
 ### UserScript (Google Search Filters Script)
 - [Tampermonkey](https://www.tampermonkey.net/);
-- [Google Search Filters userScript](https://github.com/brunobits/Google-Search-Filters-userScript).
+- [Google Search Filters userScript](https://github.com/brunobits/Google-Search-Filters-userScript/raw/main/old-google-search-filters-restored.user.js).
 
 ### UserStyle (Google Search Filters Themes)
 - [Stylus](https://github.com/openstyles/stylus#releases);
