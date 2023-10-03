@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://www.google.com/search?q=") {
+@-moz-document url-prefix("https://www.google.com/search") {
     /* ==UserStyle==
     @name         Google 2012 Sidebar
     @description  A 2012 sidebar theme for Bruni's Google Search Filters userScript.
