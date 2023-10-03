@@ -8,7 +8,13 @@ Themes for my [Google Search Filters userScript](https://github.com/brunobits/Go
 
 ### UserStyle (Google Search Filters Themes)
 - [Stylus](https://github.com/openstyles/stylus#releases);
-- [Themes](https://github.com/brunobits/Google-Search-Filters-userScript-Themes).
+
+## Themes
+### Google 2012 Sidebar
+![Theme Preview Image](https://raw.githubusercontent.com/brunobits/Google-Search-Filters-userScript-Themes/main/2012-sidebar/preview.png)
+[Install](https://github.com/brunobits/Google-Search-Filters-userScript-Themes/blob/main/2012-sidebar/optional-fixes/legosavant-old-google-2014.user.css)
+#### Optional Fixes
+- [Lego Savant's Old Google 2014 Google Search Filters fix](https://github.com/brunobits/Google-Search-Filters-userScript-Themes/raw/main/2012-sidebar/optional-fixes/legosavant-old-google-2014.user.css).
 
 ## Support
 ![Discord Server](https://discordapp.com/api/guilds/1140065636857421945/widget.png?style=shield)
