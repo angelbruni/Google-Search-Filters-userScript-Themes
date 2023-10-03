@@ -4,21 +4,21 @@
     @description  A fix for Old Google 2014 to be used with 2012 Sidebar theme for Bruni's Google Search Filters userScript.
     @author       @angelbruni
     @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
-    @version      1.0.1
+    @version      1.1
     ==/UserStyle== */
 
     #bruniSidebarContainer {
         top: 62px !important;
     }
     
-    #hdtb {
-        display: none;
-    }
-    
     .ndYZfc {
         border-bottom: 0;
     }
     
+    #pTwnEc, .cj2HCb.iuN0sf {
+        margin-right: 100px;
+    }
+
     #appbar .WE0UJf {
         margin-left: 16px;
     }

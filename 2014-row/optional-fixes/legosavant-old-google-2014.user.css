@@ -4,15 +4,16 @@
     @description  A fix for Old Google 2014 to be used with 2014 Row theme for Bruni's Google Search Filters userScript.
     @author       @angelbruni
     @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
-    @version      1.0
+    @version      1.1
     ==/UserStyle== */
 
     #bruniSidebarContainer {
-        top: 62px !important;
+        top: 59px !important;
+        padding-left: calc(var(--center-abs-margin) - -10px) !important;
     }
 
     #yDmH0d #bruniSidebarContainer {
-        padding-left: 111px;
+        padding-left: 130px !important;
     }
 
     #bruniFiltersMoreContainer {
@@ -24,12 +25,30 @@
         top: calc(62px + 48px) !important;
         left: calc(400px + 111px);
     }
-    
-    #hdtb {
-        display: none;
+
+    #pTwnEc, .cj2HCb.iuN0sf {
+        margin-right: 100px;
+    }
+
+    #appbar .WE0UJf {
+        margin-left: 120px;
+    }
+
+    .appbar {
+        margin-left: 16px;
+        padding-left: 0;
+    }
+
+    .rfiSsc {
+        display: block;
+    }
+
+    div[class] > div > .GLcBOb {
+        border-bottom: none !important;
     }
     
     .ndYZfc {
+        padding-top: 0 !important;
         border-bottom: 0;
     }
 }

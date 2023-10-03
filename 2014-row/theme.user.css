@@ -4,7 +4,7 @@
     @description  A 2014 row theme for Bruni's Google Search Filters userScript.
     @author       @angelbruni
     @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
-    @version      1.0
+    @version      1.1
     ==/UserStyle== */
 
     :root {
@@ -54,6 +54,20 @@
 
     #yDmH0d .ndYZfc {
         padding-top: 21px;
+    }
+
+    .yg51vc {
+        background-color: transparent;
+    }
+
+    .GLcBOb {
+        border-bottom: none;
+        z-index: 0;
+    }
+
+    #hdtb {
+        height: var(--filters-height);
+        z-index: -1;
     }
 
     #bruniFiltersContainer {
@@ -126,6 +140,10 @@
         width: 7px;
         height: 4px;
         margin-left: 3px;
+    }
+
+    .rfiSsc {
+        height: 0;
     }
 
     #appbar {
