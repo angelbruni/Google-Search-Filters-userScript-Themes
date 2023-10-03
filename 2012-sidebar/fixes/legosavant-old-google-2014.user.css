@@ -1,0 +1,35 @@
+@-moz-document url-prefix("https://www.google.com/search?q=") {
+    /* ==UserStyle==
+    @name         Lego Savant's Old Google 2014 Google Search Filters fix
+    @description  A fix for Old Google 2014 to be used with 2012 sidebar theme for Bruni's Google Search Filters userScript.
+    @author       @angelbruni
+    @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
+    @version      1.0
+    ==/UserStyle== */
+
+    #bruniSidebarContainer {
+        top: 62px !important;
+    }
+    
+    .hdtb {
+        display: none;
+    }
+    
+    .ndYZfc {
+        border-bottom: 0;
+    }
+    
+    #appbar .WE0UJf {
+        margin-left: 16px;
+    }
+    
+    #extabar > div {
+        position: absolute !important;
+        top: -4px;
+    }
+    
+    #result-stats {
+        height: var(--sidebar-header-height);
+        line-height: var(--sidebar-header-height);
+    }
+}
