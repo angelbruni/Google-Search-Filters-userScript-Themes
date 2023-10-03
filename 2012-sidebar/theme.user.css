@@ -4,7 +4,7 @@
     @description  A 2012 sidebar theme for Bruni's Google Search Filters userScript.
     @author       @angelbruni
     @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
-    @version      1.3
+    @version      1.4
     ==/UserStyle== */
 
     :root {
@@ -76,6 +76,7 @@
         line-height: var(--sidebar-header-height);
         font-size: var(--font-size);
         font-family: arial, sans-serif;
+        z-index: 140;
     }
     
     #rcnt > #center_col, .M8OgIe {
