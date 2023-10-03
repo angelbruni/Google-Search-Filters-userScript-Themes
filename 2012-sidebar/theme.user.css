@@ -4,7 +4,7 @@
     @description  A 2012 sidebar theme for Bruni's Google Search Filters userScript.
     @author       @angelbruni
     @namespace    https://github.com/brunobits/Google-Search-Filters-userScript-Themes
-    @version      1.4.2
+    @version      1.4.3
     ==/UserStyle== */
 
     :root {
@@ -61,6 +61,10 @@
 
     .yg51vc {
         background-color: transparent;
+    }
+
+    .rfiSsc {
+        height: 0;
     }
 
     #hdtb {
